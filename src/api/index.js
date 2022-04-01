@@ -16,3 +16,11 @@ export const reqWeather = () => {
     return ajax('https://restapi.amap.com/v3/weather/weatherInfo?key=2d64fccaa0f8e843bc6155a102cef567&city=110115',
     {},'GET')
 }
+
+export const reqCategory = (parentId) => {
+    return ajax('/manage/category/list',{parentId},'GET')
+}
+
+export const reqAddCategory = ({parentId,categoryName}) => {
+    return ajax('/manage/category/add',{parentId,categoryName},'POST')
+}

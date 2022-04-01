@@ -9,6 +9,9 @@ import Home from "../components/Home/Home";
 import Product from "../components/Product/Product"
 import Role from "../components/Role/Role"
 import User from "../components/User/User"
+import AddProduct from "../components/Product/AddProduct";
+import ProductDetails from "../components/Product/ProductDetails";
+import UpdateProduct from "../components/Product/UpdateProduct";
 
 
 const routes = [
@@ -43,6 +46,18 @@ const routes = [
             {
                 path:'product',
                 element:<Product/>,
+            },
+            {
+                path:'addproduct',
+                element:<AddProduct/>,
+            },
+            {
+                path:'productdetails',
+                element:<ProductDetails/>,
+            },
+            {
+                path:'updateproduct',
+                element:<UpdateProduct/>,
             },
             {
                 path:'role',

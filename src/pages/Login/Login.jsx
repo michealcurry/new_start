@@ -30,8 +30,8 @@ export default function Login() {
       storegeUtils.saveUser(result.data)
       message.success('登陆成功！')
       navigate('/admin')
-
     }
+    
     if(result.status === 1){
       message.error(result.msg)
     }
