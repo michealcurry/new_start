@@ -24,3 +24,23 @@ export const reqCategory = (parentId) => {
 export const reqAddCategory = ({parentId,categoryName}) => {
     return ajax('/manage/category/add',{parentId,categoryName},'POST')
 }
+
+export const reqGetProducts = (pageNum,pageSize) => {
+    return ajax('/manage/product/list',{pageNum,pageSize},'GET')
+}
+
+export const reqUpdateStatus = (productId,status) => {
+    return ajax('/manage/product/updateStatus',{productId,status},'POST')
+}
+
+export const reqGetRole = () => {
+    return ajax('/manage/role/list',{},'GET')
+}
+
+export const reqAddRole = (roleName) => {
+    return ajax('/manage/role/add',{roleName},'POST')
+}
+
+export const reqUpdateRole = (_id,menus,auth_time,auth_name) => {
+    return ajax('/manage/role/update',{_id,menus,auth_time,auth_name},'POST')
+}
