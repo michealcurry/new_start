@@ -2,9 +2,9 @@
 后台管理系统
 
 #说明
-1.这是看了尚硅谷课程的视频写的，具体可以看https://www.bilibili.com/video/BV1i4411N7Qc?p=91
-2.不同课程的是，这个是用react hooks以及react-router-dom v6和antd v4写的版本比较新
-3.由于本人较懒，有些功能实在是懒的实现了，添加商品写了个动态获取，懒得写添加的功能了，其余可能也有些出入，实现了个百分之90吧大概
+1.这是看了尚硅谷课程的视频写的，具体可以看https://www.bilibili.com/video/BV1i4411N7Qc?p=91. 
+2.不同课程的是，这个是用react hooks以及react-router-dom v6和antd v4写的版本比较新. 
+3.由于本人较懒，有些功能实在是懒的实现了，添加商品写了个动态获取，懒得写添加的功能了，其余可能也有些出入，实现了个百分之90吧大概. 
 
 # Getting Started with Create React App
 
